@@ -44,9 +44,9 @@ My vim files forked from [qiao](https://github.com/qiao)
 * `ack-grep` - required by `ack.vim`
 * `ctags` - required by `tagbar`
 
-The following command is for ArchLinux. Package names and install tools may differ in other distributions.
+The following command is for Gentoo Linux. Package names and install tools may differ in other distributions.
 
-    sudo yaourt -S ruby ack ctags
+    sudo emerge -av dev-lang/ruby sys-apps/ack dev-util/ctags
 
 ## Installation ##
 
@@ -57,7 +57,7 @@ Backup your own vim files.
 
 Clone this repository.
 
-    git clone git@github.com:qiao/vimfiles.git
+    git clone git://github.com/zhibo/vimfiles.git
     mv vimfiles .vim
 
 Create link for `.vimrc`.
