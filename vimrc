@@ -1,9 +1,12 @@
 " Don't be compatible with vi
 set nocompatible 
+set hlsearch
 
 filetype on  
 filetype plugin on
 filetype plugin indent on
+
+set fencs=utf-8,gbk
 
 " Load pathogen to manage plugins
 call pathogen#runtime_append_all_bundles()
@@ -27,6 +30,9 @@ set background=dark
 set t_Co=256
 color tir_black
 set cursorline
+
+" Extra syntax highlighting for Lisp and variants
+autocmd Syntax lisp,scheme,clojure runtime plugin/RainbowParenthsis.vim
 
 " JQuery syntax support
 autocmd Syntax javascript set syntax=jquery
@@ -63,9 +69,6 @@ set linespace=4
 
 autocmd Syntax html,css,ruby,javascript,coffee set tabstop=2 shiftwidth=2 linespace=2
 
-" File Types
-autocmd BufRead,BufNewFile *.g set syntax=antlr3
-
 " Indent guides (default toggle key is <leader>ig)
 let g:indent_guides_auto_colors=0
 let g:indent_guides_start_level=2 
@@ -94,38 +97,12 @@ let g:user_zen_settings={
 let NERDChristmasTree=1
 let NERDTreeWinSize=25
 
-" Tab Bar
-let g:Tb_MaxSize = 2
-let g:Tb_TabWrap = 1
-
 " Tagbar
 let g:tagbar_left=0
 let g:tagbar_width=30
 
-" Rainbow parentheses for Lisp and variants
-let g:rbpt_colorpairs = [
-    \ [172, 172],
-    \ [167, 167],
-    \ [141, 141],
-    \ [39, 39],
-    \ [49, 49],
-    \ [82, 82],
-    \ [11, 11],
-    \ [172, 172],
-    \ [167, 167],
-    \ [141, 141],
-    \ [39, 39],
-    \ [49, 49],
-    \ [82, 82],
-    \ [11, 11],
-    \ [172, 172],
-    \ [167, 167],
-    \ ]
-let g:rbpt_max = 32
-autocmd Syntax lisp,scheme,clojure RainbowParenthesesToggle
-
-
 " Key mappings
+nmap <F3> :set hlsearch!<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap <F5> :NERDTreeToggle<cr>
 nmap <F6> :TagbarToggle<cr>

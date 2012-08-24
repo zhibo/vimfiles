@@ -1,5 +1,5 @@
-Qiao's vim files
-================
+My vim files forked from [qiao](https://github.com/qiao)
+=========================================================
 
 ## Bundled Plugins ##
 
@@ -19,15 +19,14 @@ Qiao's vim files
 * [nerd commenter](https://github.com/scrooloose/nerdcommenter) - for intensely orgasmic commenting 
 * [nerd tree](https://github.com/scrooloose/nerdtree) - tree explorer plugin for navigating the filesystem
 * [powerline](https://github.com/Lokaltog/vim-powerline) - create better-looking, more functional vim statuslines
-* [rainbow parenthesis](https://github.com/kien/rainbow_parentheses.vim) - highlights matching parenthesis with a rainbow of colors
+* [rainbow parenthesis](http://www.vim.org/scripts/script.php?script_id=1230) - highlights matching parenthesis with a rainbow of colors
 * [rails.vim](https://github.com/tpope/vim-rails) - Ruby on Rails power tools 
 * [supertab](https://github.com/ervandew/supertab) - Perform all your vim insert mode completions with Tab 
 * [surround](https://github.com/tpope/vim-surround) - quoting/parenthesizing made simple
 * [syntastic](https://github.com/scrooloose/syntastic/) - Syntax checking hacks for vim 
-* [tabbar](https://github.com/humiaozuzu/TabBar.git) - add tab bar (derived from miniBufExplorer)
+* [tabbar](http://www.vim.org/scripts/script.php?script_id=1338) - add tab bar (derived from miniBufExplorer)
 * [tabular](https://github.com/godlygeek/tabular) - for text filtering and alignment 
 * [tagbar](https://github.com/majutsushi/tagbar) - displays tags in a window, ordered by class etc
-* [vim-antlr](https://github.com/rollxx/vim-antlr) - Syntax highlighter for ANTLR files in vim
 * [vim-coffee-script](https://github.com/kchmck/vim-coffee-script) - CoffeeScript support for vim
 * [vim-jade](https://github.com/digitaltoad/vim-jade) - Jade template engine syntax highlighting and indention
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
@@ -47,7 +46,7 @@ Qiao's vim files
 
 The following command is for ArchLinux. Package names and install tools may differ in other distributions.
 
-    sudo yaourt -S ack ctags
+    sudo yaourt -S ruby ack ctags
 
 ## Installation ##
 
@@ -72,6 +71,7 @@ Update the submodules (This step may take some time. Go have yourself a cup of t
 
 ## Key Bindings ##
 
+* `F3` -> Toggle highlighting
 * `F4` -> Toggle indentation guides
 * `F5` -> Toggle Nerd-Tree file viewer
 * `F6` -> Toggle tagbar
