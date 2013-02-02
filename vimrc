@@ -1,11 +1,18 @@
 " Don't be compatible with vi
 set nocompatible 
+
+" Set search highlight
 set hlsearch
 
+" Set text width
+set textwidth=80
+
+" Set file type
 filetype on  
 filetype plugin on
 filetype plugin indent on
 
+" Set encoding
 set fencs=utf-8,gbk
 
 " Load pathogen to manage plugins
@@ -29,7 +36,12 @@ set background=dark
 " Color settings
 set t_Co=256
 color tir_black
+
+" Highlight at column 80 and highlight cursor line and column
+set cc=80
 set cursorline
+set cursorcolumn
+
 
 " Extra syntax highlighting for Lisp and variants
 autocmd Syntax lisp,scheme,clojure runtime plugin/RainbowParenthsis.vim

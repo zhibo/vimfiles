@@ -38,7 +38,7 @@ hi WarningMsg guifg=white guibg=#FF6C60 gui=bold ctermfg=white ctermbg=203 cterm
 
 hi ModeMsg guifg=black guibg=#C6C5FE gui=bold ctermfg=0 ctermbg=189 cterm=bold
 
-hi CursorLine cterm=bold
+hi CursorLine cterm=underline ctermbg=234
 hi CursorColumn ctermbg=234 cterm=none
 hi MatchParen ctermfg=white ctermbg=darkgray
 hi Pmenu ctermfg=white ctermbg=242 

@@ -85,6 +85,3 @@
 [submodule "bundle/tabbar"]
 	path = bundle/tabbar
 	url = https://github.com/humiaozuzu/TabBar.git
-[submodule "bundle/Better-CSS-Syntax-for-Vim"]
-	path = bundle/Better-CSS-Syntax-for-Vim
-	url = git://github.com/ChrisYip/Better-CSS-Syntax-for-Vim.git
