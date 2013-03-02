@@ -4,9 +4,6 @@ set nocompatible
 " Set search highlight
 set hlsearch
 
-" Set text width
-set textwidth=80
-
 " Set file type
 filetype on  
 filetype plugin on
