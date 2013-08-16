@@ -1,6 +1,17 @@
 " Don't be compatible with vi
 set nocompatible 
 
+" Set code folding
+set foldmethod=indent
+set foldlevel=99
+
+" Set gundo
+let g:gundo_preview_bottom=1
+let g:gundo_right=1
+
+" Set pep8
+let g:pep8_map='<Leader>8'
+
 " Set search highlight
 set hlsearch
 
@@ -36,6 +47,7 @@ color tir_black
 
 " Highlight at column 80 and highlight cursor line and column
 set cc=80
+hi ColorColumn ctermbg=blue guibg=lightgrey
 set cursorline
 set cursorcolumn
 
@@ -91,10 +103,12 @@ let g:neocomplcache_enable_smart_case=1
 let g:neocomplcache_min_syntax_length = 3
 let g:neocomplcache_lock_buffer_name_pattern = '\*ku\*'
 autocmd Syntax html let g:neocomplcache_disable_auto_complete=1
-set completeopt-=preview
+" set completeopt-=preview
+set completeopt=menuone,longest,preview
 
 " SuperTab
 let g:SuperTabDefaultCompletionType="<c-n>"
+au FileType python set omnifunc=pythoncomplete#Complete
 
 " Zen-coding 
 let g:user_zen_expandabbr_key='<c-j>'
@@ -115,6 +129,8 @@ nmap <F3> :set hlsearch!<cr>
 nmap <F4> :IndentGuidesToggle<cr>
 nmap <F5> :NERDTreeToggle<cr>
 nmap <F6> :TagbarToggle<cr>
+map <leader>td <Plug>TaskList
+map <leader>g :GundoToggle<cr>
 
 " Extra commands 
 command W w
