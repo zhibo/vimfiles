@@ -36,7 +36,7 @@ My vim files forked from [qiao](https://github.com/qiao)
 * [vim-jade](https://github.com/digitaltoad/vim-jade) - Jade template engine syntax highlighting and indention
 * [vim-javascript](https://github.com/pangloss/vim-javascript) - Vastly improved vim's javascript indentation
 * [vim-stylus](https://github.com/wavded/vim-stylus) - Syntax highlighting for Stylus
-* [zencoding](https://github.com/mattn/zencoding-vim) - for high-speed HTML, XML, XSL, etc coding and editing
+* [emmet](https://github.com/mattn/emmet-vim) - for high-speed HTML, XML, XSL, etc coding and editing
 
 ## Themes ##
 
