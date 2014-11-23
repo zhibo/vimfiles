@@ -118,11 +118,11 @@ let g:user_zen_settings={
 
 " Nerd Tree 
 let NERDChristmasTree=1
-let NERDTreeWinSize=25
+let NERDTreeWinSize=45
 
 " Tagbar
 let g:tagbar_left=0
-let g:tagbar_width=30
+let g:tagbar_width=50
 
 " Key mappings
 nmap <F3> :set hlsearch!<cr>
