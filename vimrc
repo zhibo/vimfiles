@@ -47,7 +47,7 @@ color tir_black
 
 " Highlight at column 80 and highlight cursor line and column
 set cc=80
-hi ColorColumn ctermbg=blue guibg=lightgrey
+hi ColorColumn ctermbg=lightblue guibg=lightgrey
 set cursorline
 set cursorcolumn
 
