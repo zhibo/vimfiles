@@ -106,3 +106,15 @@
 [submodule "bundle/drawit"]
 	path = bundle/drawit
 	url = https://github.com/vim-scripts/DrawIt.git
+[submodule "bundle/vim-erlang-runtime"]
+	path = bundle/vim-erlang-runtime
+	url = git@github.com:vim-erlang/vim-erlang-runtime.git
+[submodule "bundle/vim-erlang-compiler"]
+	path = bundle/vim-erlang-compiler
+	url = git@github.com:vim-erlang/vim-erlang-compiler.git
+[submodule "bundle/vim-erlang-omnicomplete"]
+	path = bundle/vim-erlang-omnicomplete
+	url = git@github.com:vim-erlang/vim-erlang-omnicomplete.git
+[submodule "bundle/vim-erlang-tags"]
+	path = bundle/vim-erlang-tags
+	url = git@github.com:vim-erlang/vim-erlang-tags.git
